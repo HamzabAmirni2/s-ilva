@@ -18,15 +18,15 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/SilvaTechB/silva-md-bot";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v" ; 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va5mXGNLdQeXkib1M82X";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va5mXGNLdQeXkib1M82X" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9c522f89834cfb510738d.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉-ᴍᴅ" 
 
 
-global.devs = "254700143167" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254743706010";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254743706010";
+global.devs = "212624855939" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "212624855939";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "212624855939";
 
 
 
@@ -55,14 +55,14 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,254xxxxxxxx";
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "true"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,254700143167";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254700143167, 254743706010";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,212624855939";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "212624855939, 212624855939";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://silvatech.vercel.app";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  "{"noiseKey":{"private":{"type":"Buffer","data":"oCMZvt1O6dv7TY4TtP9boWiFl0i1+y9VNTAMHyFFJXI="},"public":{"type":"Buffer","data":"AHxuYnWZo++IrLp9UBj70s+sY0fxf2d1dtMvM4fRWhA="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"CCeR/LIdtOf+CfS7HdbYk5PumF+mXJ5+w0LmPILLtGM="},"public":{"type":"Buffer","data":"kk6BC7G1wHlpl+VLXDUdgw7WjYDwgCGHQnZGk2RxSCg="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"IHMMXqZ5MkLcN/9tRE+0mGBLA8kGn9Y1NaLocztG+Gk="},"public":{"type":"Buffer","data":"ttIcrn+Abo54EnRrkYxS+i4T4JJh6NmNuQpi1CsneBk="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"2Kp6kKAomcDnd/DCq2KN/Drm7ZFrUszadh9ZQeMyvlA="},"public":{"type":"Buffer","data":"pi9hp87SQVqmz4/DjzQlOw6XjHSV2r8mtFlheoCHvn0="}},"signature":{"type":"Buffer","data":"p76YUIBNXNa/EOXIts2rqLV5ko82D2Ja6c4b3zoPS+XvlVjSVRZ7+qQanX56NOd/USW8/IQtFk4IHdf+i+AAig=="},"keyId":1},"registrationId":191,"advSecretKey":"SbS3Berxu7r5RAVcyrHk5PpF3UvFZmpGZLQEwIgn0xc=","processedHistoryMessages":[{"key":{"remoteJid":"212708869993@s.whatsapp.net","fromMe":true,"id":"349BAE37ABFB5A4E88FEBBFDE06499CC"},"messageTimestamp":1721084344}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"E4cKlWOgSQWpNyHd3W7ZTw","phoneId":"d313b92e-8eda-4db1-864d-9d1cadd578b8","identityId":{"type":"Buffer","data":"9x+7GmSQ+4WVQXYIghwCP9T6sUM="},"registered":true,"backupToken":{"type":"Buffer","data":"GBWgfLHR3JQ1nDfKwKwLrLN0YIE="},"registration":{},"pairingCode":"7KYCX9QB","me":{"id":"212708869993:18@s.whatsapp.net","name":"bot Hamza  amirni","lid":"154949870690457:18@lid"},"account":{"details":"CKmY/GcQsdPWtAYYBCAAKAA=","accountSignatureKey":"ZdCuZ0uRp+oha0updAs57FpisM5vyZPiIDnuLi4x6C4=","accountSignature":"P0fuACdvmC038ZH0XbxYX5vufqigYiMcWAk1zOli+yBU+9mWZLZp/uazMuA4kC6geqF5CEUqXkcfNXeat1U4AA==","deviceSignature":"9W0OUvXxm0IZkaRcSF6nkZz1b0stRasIp3nhmMPlvhzm4FWhUePn8ht/5wMdn76MD4JfLnHzJYyBfOT8MloJig=="},"signalIdentities":[{"identifier":{"name":"212708869993:18@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BWXQrmdLkafqIWtLqXQLOexaYrDOb8mT4iA57i4uMegu"}}],"platform":"smba","lastAccountSyncTimestamp":1721084340,"myAppStateKeyId":"AAAAAEoL"}"  // PUT your SESSION_ID 
 
 
 module.exports = {
